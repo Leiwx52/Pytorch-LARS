@@ -41,8 +41,6 @@ class Lars(Optimizer):
               set to a high value to avoid it (e.g 10e3)
         decay_grad_clip_value: clamp grad(after weight_decay) in (-decay_grad_clip_value, decay_grad_clip_value) 
             (default: 50)
-
-        
         dampening (float, optional): dampening for momentum (default: 0)
         nesterov (bool, optional): enables Nesterov momentum (default: False)
         epsilon (float, optional): epsilon to prevent zero division (default: 0)
