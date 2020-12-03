@@ -1,4 +1,3 @@
-
 import math
 import re
 import torch
@@ -60,7 +59,7 @@ class Lars(Optimizer):
         This one adapt `exculde_from_weight_decay` and `exclude_from_layer_adaptation` by including this args.
         See Reference codes #1 #2 #3
 
-        + The default values are set according to 
+        + The default values for the args are set according to reference code #1.
 
         + You can also implement a LARS optimizer without `net`-arg. Refer to this manner:
         https://github.com/CSAILVision/semantic-segmentation-pytorch/blob/8f27c9b97d2ca7c6e05333d5766d144bf7d8c31b/train.py#L92
